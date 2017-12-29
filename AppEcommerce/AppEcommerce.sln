@@ -1,30 +1,63 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{1EA171E1-6971-4D27-BFED-E7705BF11AAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "Entidades\CapaEntidades.csproj", "{1EA171E1-6971-4D27-BFED-E7705BF11AAD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{9AC9DCC7-8132-410D-843D-382C8A9E2DDE}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ClienteWeb(1)", "http://localhost:9221", "{1C2BB519-4186-4B1E-952E-D0C34368463A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{5A7FF728-8F9F-4018-875E-E0503373E940}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{CF7DCB7B-329C-47A5-8576-D3A016831D7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{9D159A0A-378C-4785-ABCD-EAFB4C116DA0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CapaServicios(1)", "http://localhost:27867", "{1D08233C-39F5-41D0-8AF2-B83EA4C961BE}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_9221"
-		Debug.AspNetCompiler.PhysicalPath = "ClienteWeb\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9221\"
+		ProjectReferences = "{1ea171e1-6971-4d27-bfed-e7705bf11aad}|CapaEntidades.dll;{9ac9dcc7-8132-410d-843d-382c8a9e2dde}|CapaNegocio.dll;{5A7FF728-8F9F-4018-875E-E0503373E940}|CapaDatos.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_27867"
+		Debug.AspNetCompiler.PhysicalPath = "CapaServicios\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27867\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_9221"
-		Release.AspNetCompiler.PhysicalPath = "ClienteWeb\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9221\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_27867"
+		Release.AspNetCompiler.PhysicalPath = "CapaServicios\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27867\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "ClienteWeb\"
+		SlnRelativePath = "CapaServicios\"
 		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CapaPresentacion(1)", "http://localhost:28337", "{CAA7FA36-474F-4B08-9309-006A06C2A017}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{9ac9dcc7-8132-410d-843d-382c8a9e2dde}|CapaNegocio.dll;{5A7FF728-8F9F-4018-875E-E0503373E940}|CapaDatos.dll;{1EA171E1-6971-4D27-BFED-E7705BF11AAD}|CapaEntidades.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_28337"
+		Debug.AspNetCompiler.PhysicalPath = "CapaPresentacion\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28337\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_28337"
+		Release.AspNetCompiler.PhysicalPath = "CapaPresentacion\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28337\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "CapaPresentacion\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{1D08233C-39F5-41D0-8AF2-B83EA4C961BE} = {1D08233C-39F5-41D0-8AF2-B83EA4C961BE}
 	EndProjectSection
 EndProject
 Global
@@ -41,12 +74,27 @@ Global
 		{9AC9DCC7-8132-410D-843D-382C8A9E2DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AC9DCC7-8132-410D-843D-382C8A9E2DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AC9DCC7-8132-410D-843D-382C8A9E2DDE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C2BB519-4186-4B1E-952E-D0C34368463A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C2BB519-4186-4B1E-952E-D0C34368463A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C2BB519-4186-4B1E-952E-D0C34368463A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C2BB519-4186-4B1E-952E-D0C34368463A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5A7FF728-8F9F-4018-875E-E0503373E940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7FF728-8F9F-4018-875E-E0503373E940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7FF728-8F9F-4018-875E-E0503373E940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7FF728-8F9F-4018-875E-E0503373E940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D08233C-39F5-41D0-8AF2-B83EA4C961BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D08233C-39F5-41D0-8AF2-B83EA4C961BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D08233C-39F5-41D0-8AF2-B83EA4C961BE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D08233C-39F5-41D0-8AF2-B83EA4C961BE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CAA7FA36-474F-4B08-9309-006A06C2A017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA7FA36-474F-4B08-9309-006A06C2A017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA7FA36-474F-4B08-9309-006A06C2A017}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA7FA36-474F-4B08-9309-006A06C2A017}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AC9DCC7-8132-410D-843D-382C8A9E2DDE} = {CF7DCB7B-329C-47A5-8576-D3A016831D7C}
+		{5A7FF728-8F9F-4018-875E-E0503373E940} = {CF7DCB7B-329C-47A5-8576-D3A016831D7C}
+		{1EA171E1-6971-4D27-BFED-E7705BF11AAD} = {CF7DCB7B-329C-47A5-8576-D3A016831D7C}
+		{1D08233C-39F5-41D0-8AF2-B83EA4C961BE} = {CF7DCB7B-329C-47A5-8576-D3A016831D7C}
+		{CAA7FA36-474F-4B08-9309-006A06C2A017} = {9D159A0A-378C-4785-ABCD-EAFB4C116DA0}
 	EndGlobalSection
 EndGlobal

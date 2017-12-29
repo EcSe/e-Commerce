@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Entidades
+using System.Runtime.Serialization;
+
+namespace CapaEntidades
 {
+   [DataContract]
    public  class PaisEntidad
     {
+       [DataMember]
        public string CodPais { get; set; }
+      [DataMember]
        public string Nombre { get; set; }
     }
 }

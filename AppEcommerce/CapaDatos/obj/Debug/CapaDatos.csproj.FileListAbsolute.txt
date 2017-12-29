@@ -1,0 +1,5 @@
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache

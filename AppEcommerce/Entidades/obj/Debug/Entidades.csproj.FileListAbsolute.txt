@@ -1,0 +1,5 @@
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\bin\Debug\Entidades.dll
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\Entidades.dll
+C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\Entidades.pdb
