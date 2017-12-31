@@ -3,3 +3,8 @@ C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\bin\Debug\Cap
 C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.dll
 C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.pdb
 C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+D:\Proyectos\e-Commerce\AppEcommerce\Entidades\bin\Debug\CapaEntidades.dll
+D:\Proyectos\e-Commerce\AppEcommerce\Entidades\bin\Debug\CapaEntidades.pdb
+D:\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+D:\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.dll
+D:\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.pdb

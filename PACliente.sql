@@ -11,11 +11,16 @@ create proc spAgregarCliente
 @RazonSocial varchar(30),@RUC varchar(15),@FechaNac datetime,@EstadoCivil varchar(15),
 @Ocupacion varchar(20),@Telefono varchar(10),@CodPais varchar(3)
 as
+	If Not Exists(Select * from TCliente Where Nombres = @Nombres And Apellidos = @Apellidos)
 begin
 	insert into TCliente VALUES (@Nombres,@Apellidos,@Sexo,@TipoDocumento,@NroDocumento,
 	@Email,@Provincia ,@Ciudad,@Distrito,@Direccion,@Usuario,@Contrasena,
 @RazonSocial,@RUC,@FechaNac,@EstadoCivil,@Ocupacion,@Telefono,@CodPais)
+Select CodError = 0, Mensaje = 'Cliente registrado';
 end
+Else
+		Select CodError = 1, Mensaje = 'Ya existe ese cliente';
+
 go
 
 if OBJECT_ID('spListarCliente') is not null

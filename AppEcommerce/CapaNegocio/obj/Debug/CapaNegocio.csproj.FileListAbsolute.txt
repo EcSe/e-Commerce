@@ -7,3 +7,12 @@ C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\bin\Debug\C
 C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\Elvin\Desktop\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\bin\Debug\CapaEntidades.dll
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\bin\Debug\CapaEntidades.pdb
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\Proyectos\e-Commerce\AppEcommerce\CapaNegocio\obj\Debug\CapaNegocio.pdb
