@@ -11,41 +11,41 @@ namespace CapaEntidades
     public class ClienteEntidad
     {
         [DataMember]
-        public string Nombres { get; set; }
+        public String Nombres { get; set; }
         [DataMember]
-        public string Apellidos { get; set; }
+        public String Apellidos { get; set; }
         [DataMember]
-        public string Sexo { get; set; }
+        public String Sexo { get; set; }
         [DataMember]
-        public string TipoDocumento { get; set; }
+        public String TipoDocumento { get; set; }
         [DataMember]
-        public string NroDocumento { get; set; }
+        public String NroDocumento { get; set; }
         [DataMember]
-        public string Email { get; set; }
+        public String Email { get; set; }
         [DataMember]
-        public string Provincia { get; set; }
+        public String Provincia { get; set; }
         [DataMember]
-        public string Ciudad { get; set; }
+        public String Ciudad { get; set; }
         [DataMember]
-        public string Distrito { get; set; }
+        public String Distrito { get; set; }
         [DataMember]
-        public string Direccion { get; set; }
+        public String Direccion { get; set; }
         [DataMember]
-        public string Usuario { get; set; }
+        public String Usuario { get; set; }
         [DataMember]
-        public string Contrasena { get; set; }
+        public String Contrasena { get; set; }
         [DataMember]
-        public string RazonSocial { get; set; }
+        public String RazonSocial { get; set; }
         [DataMember]
-        public string RUC { get; set; }
+        public String RUC { get; set; }
         [DataMember]
         public DateTime FechaNac { get; set; }
         [DataMember]
-        public string EstadoCivil { get; set; }
+        public String EstadoCivil { get; set; }
         [DataMember]
-        public string Ocupacion { get; set; }
+        public String Ocupacion { get; set; }
         [DataMember]
-        public string Telefono { get; set; }
+        public String Telefono { get; set; }
         [DataMember]
         public PaisEntidad pais { get; set; }
     }

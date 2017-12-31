@@ -11,9 +11,9 @@ namespace CapaNegocio.Interfaces
     {
         DataSet Listar();
         bool Agregar(ClienteEntidad cliente);
-        bool Eliminar(string codCliente);
+        bool Eliminar(String codCliente);
         bool Actualizar(ClienteEntidad cliente);
-        DataSet Buscar(string codCliente);
+        DataSet Buscar(String codCliente);
         bool ValidarUsuario();
     }
 }

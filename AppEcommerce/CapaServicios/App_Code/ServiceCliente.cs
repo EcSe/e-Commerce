@@ -13,7 +13,7 @@ using CapaNegocio;
 public class ServiceCliente : IServiceCliente
 {
     private ClienteBL clienteBL = new ClienteBL();
-    private ClienteEntidad cliente = new ClienteEntidad();
+   // private ClienteEntidad cliente = new ClienteEntidad();
 
     public System.Data.DataSet Listar()
     {
@@ -21,9 +21,9 @@ public class ServiceCliente : IServiceCliente
         return clienteBL.Listar();
     }
 
-    public List<string> Agregar(CapaEntidades.ClienteEntidad cliente)
+    public List<String> Agregar(CapaEntidades.ClienteEntidad cliente)
     {
-        List<String> Resultados = new List<string>();
+        List<String> Resultados = new List<String>();
 
         String Estado = Convert.ToString(clienteBL.Agregar(cliente));
         String Mensaje = clienteBL.Mensaje;
@@ -44,7 +44,7 @@ public class ServiceCliente : IServiceCliente
     }
 
 
-    public string Login(string user, string contrasena)
+   /* public string Login(string user, string contrasena)
     {
         cliente.Usuario = user;
         cliente.Contrasena = contrasena;
@@ -52,5 +52,5 @@ public class ServiceCliente : IServiceCliente
         clienteBL.ValidarUsuario();
         return clienteBL.Mensaje;
 
-    }
+    }*/
 }

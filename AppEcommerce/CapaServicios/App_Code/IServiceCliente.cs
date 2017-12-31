@@ -20,6 +20,6 @@ public interface IServiceCliente
     [OperationContract]
     List<String> Eliminar(String codCliente);
 
-    [OperationContract]
-    String Login(string user, string contrasena);
+  //  [OperationContract]
+   // String Login(string user, string contrasena);
 }

@@ -13,7 +13,7 @@ namespace CapaNegocio
     public class ClienteBL:Interfaces.iCliente
     {
         
-        private Datos datos = new DatosSQL();
+        Datos datos = new DatosSQL();
         private String mensaje;
         public String Mensaje
         {
@@ -32,10 +32,10 @@ namespace CapaNegocio
             cliente.pais = paises;*/
 
            DataRow fila = datos.TraerDataRow("spAgregarCliente",cliente.Nombres,
-               cliente.Apellidos,cliente.Ciudad,cliente.Contrasena,cliente.Direccion,cliente.Distrito,
-               cliente.Email,cliente.EstadoCivil,cliente.FechaNac,cliente.NroDocumento,cliente.Ocupacion,
-             cliente.pais.CodPais,cliente.Provincia,cliente.RazonSocial,cliente.RUC,cliente.Sexo,
-               cliente.Telefono,cliente.TipoDocumento,cliente.Usuario);
+               cliente.Apellidos,cliente.Sexo,cliente.TipoDocumento,cliente.NroDocumento,cliente.Email,
+               cliente.Provincia,cliente.Ciudad,cliente.Distrito,cliente.Direccion,cliente.Usuario,
+             cliente.Contrasena,cliente.RazonSocial,cliente.RUC,cliente.FechaNac,cliente.EstadoCivil,
+               cliente.Ocupacion,cliente.Telefono,cliente.pais.CodPais);
            mensaje = fila["Mensaje"].ToString();
            byte codError = Convert.ToByte(fila["CodError"]);
            if (codError == 0) return true;
