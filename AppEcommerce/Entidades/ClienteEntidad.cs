@@ -11,6 +11,8 @@ namespace CapaEntidades
     public class ClienteEntidad
     {
         [DataMember]
+        public int CodCliente { get; set; }
+        [DataMember]
         public String Nombres { get; set; }
         [DataMember]
         public String Apellidos { get; set; }
