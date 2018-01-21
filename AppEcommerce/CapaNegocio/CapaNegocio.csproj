@@ -43,7 +43,9 @@
     <Compile Include="ClienteBL.cs" />
     <Compile Include="Interfaces\iCliente.cs" />
     <Compile Include="Interfaces\iPais.cs" />
+    <Compile Include="Interfaces\iProducto.cs" />
     <Compile Include="PaisBL.cs" />
+    <Compile Include="ProductoBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
