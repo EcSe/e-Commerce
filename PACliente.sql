@@ -16,10 +16,10 @@ begin
 	insert into TCliente VALUES (@Nombres,@Apellidos,@Sexo,@TipoDocumento,@NroDocumento,
 	@Email,@Provincia ,@Ciudad,@Distrito,@Direccion,@Usuario,@Contrasena,
 @RazonSocial,@RUC,@FechaNac,@EstadoCivil,@Ocupacion,@Telefono,@CodPais)
-Select CodError = 0, Mensaje = 'Cliente registrado';
+select CodError = 0, Mensaje = 'Cliente registrado'
 end
 Else
-		Select CodError = 1, Mensaje = 'Ya existe ese cliente';
+		select CodError = 1, Mensaje = 'Ya existe ese cliente'
 
 go
 

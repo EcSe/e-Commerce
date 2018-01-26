@@ -38,8 +38,12 @@ namespace CapaNegocio
 
         public bool Eliminar(string codProducto)
         {
-            throw new NotImplementedException();
 
+            DataRow fila = datos.TraerDataRow("spEliminarProducto", codProducto);
+            mensaje = fila["Mensaje"].ToString();
+            byte codError = Convert.ToByte(fila["CodError"]);
+            if (codError == 0) return true;
+            else return false;
         }
 
         public bool Actualizar(CapaEntidades.ProductoEntidad producto)
@@ -48,11 +52,7 @@ namespace CapaNegocio
         }
 
 
-        public bool Eliminar(string codProd)
-        {
-            throw new NotImplementedException();
-        }
-
+       
 
         public System.Data.DataSet Buscar(string codProd)
         {

@@ -18,34 +18,17 @@ as
 		begin
 			insert Into TProducto Values(@CodProducto, @Nombre, @Descripcion, @Especificacion, @Peso, @Longitud, @Alto,
 		@Ancho, @Diametro, @Precio, @CodSubCategoria);
-		Select CodError = 0, Mensaje = 'Se ingreso producto correctamente';
+		select CodError = 0, Mensaje = 'Se ingreso producto correctamente';
 		end
 		else
-	select CodError = 1 ,Mensaje ='Ya existe el cliente';
-go
-
---
-@CodProd varchar(6),@Nombre varchar(6),@Descripcion nvarchar(2000),@Especificacion varchar(40),
-@Peso numeric(8,2),@Longitud numeric(8,2),@Alto numeric(8,2),@Ancho numeric(8,2),@Diametro numeric(8,2),
-@Precio money,@CodSUbCategoria varchar(4)
-as
-	if not exists(select * from TProducto where CodProducto=@CodProd)
-begin
-	INSERT INTO TProducto VALUES(@CodProd,@Nombre,@Descripcion,@Especificacion,@Peso,@Longitud,@Alto,
-	@Ancho,@Diametro,@Precio,@CodSUbCategoria)
-select CodError= 0,  Mensaje='Producto Agregado Correctamente'
-end
-else
-	Select CodError=1, Mensaje='Ya existe un producto con ese codigo'
+	select CodError = 1 ,Mensaje ='Ya existe un producto con ese codigo';
 go
 
 --PA PARA LISTAR PRODUCTO
->>>>>>> 644f5c032a7fbb4cb9479342495a57ba9ac84c3b
 if OBJECT_ID('spListarProducto') is not null
 drop proc spListarProducto
 go
 create proc spListarProducto
-
 as
 begin
 	select*from TProducto
