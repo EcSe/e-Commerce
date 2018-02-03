@@ -8,3 +8,7 @@ D:\Proyectos\e-Commerce\AppEcommerce\Entidades\bin\Debug\CapaEntidades.pdb
 D:\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
 D:\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.dll
 D:\Proyectos\e-Commerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.pdb
+D:\Proyectos\AppEcommerce\AppEcommerce\Entidades\bin\Debug\CapaEntidades.dll
+D:\Proyectos\AppEcommerce\AppEcommerce\Entidades\bin\Debug\CapaEntidades.pdb
+D:\Proyectos\AppEcommerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.dll
+D:\Proyectos\AppEcommerce\AppEcommerce\Entidades\obj\Debug\CapaEntidades.pdb
